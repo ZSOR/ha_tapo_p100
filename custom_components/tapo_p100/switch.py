@@ -1,9 +1,7 @@
-
-from _typeshed import Self
+from PyP100 import PyP100
 import logging
 from typing import Any, Dict
 from typing_extensions import Required
-from PyP100 import PyP100
 import voluptuous as vol
 import json
 from homeassistant.components.switch import PLATFORM_SCHEMA, SwitchDevice
