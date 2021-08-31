@@ -1,0 +1,5 @@
+{
+  "name": "Tapo P100 Plug",
+  "render_readme": true,
+  "domains": ["switch"]
+}
