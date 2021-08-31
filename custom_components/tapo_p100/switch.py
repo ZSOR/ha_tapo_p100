@@ -1,15 +1,10 @@
 from PyP100 import PyP100
-import logging
-from typing import Any, Dict
-from typing_extensions import Required
 import voluptuous as vol
 import json
 from homeassistant.components.switch import PLATFORM_SCHEMA, SwitchDevice
 from homeassistant.const import CONF_IP_ADDRESS, CONF_USERNAME, CONF_NAME, CONF_PASSWORD
 import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.restore_state import RestoreEntity
-
-_LOGGER = logging.getLogger(__name__)
 
 DEFAULT_NAME = "tapo_p100"
 
