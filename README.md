@@ -7,7 +7,9 @@ A simple configuration could be:
 ```yaml
 switch:
   - platform: tapo_p100
-    mac: 'DD:A6:10:22:11:33'
+    ip_address: '127.0.0.1'
+    username: 'username@web.com'
+    password: 'password'
 
 ```
 
